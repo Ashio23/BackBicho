@@ -6,7 +6,7 @@
   "scripts": {
     "babel-node": "babel-node --presets=@babel/preset-env",
     "dev": "nodemon --exec npm run babel-node @src/index.js",
-    "start": "NODE_ENV=PRODUCTION nodemon --exec npm run babel-node src/index.js"
+    "start": "nodemon --exec npm run babel-node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,13 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mysql": "^2.18.1",
-    "promise-mysql": "^5.2.0"
+    "promise-mysql": "^5.2.0",
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
