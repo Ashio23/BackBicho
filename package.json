@@ -6,7 +6,7 @@
   "scripts": {
     "babel-node": "babel-node --presets=@babel/preset-env",
     "dev": "nodemon --exec npm run babel-node src/index.js",
-    "start": "node npm run babel-node src/index.js"
+    "start": "nodemon --exec npm run babel-node src/index.js"
   },
   "author": "Sebastian Morales",
   "license": "ISC",
