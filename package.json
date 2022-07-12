@@ -6,7 +6,7 @@
   "scripts": {
     "babel-node": "babel-node --presets=@babel/preset-env",
     "dev": "nodemon --exec npm run babel-node ./src/index.js",
-    "start": "npm run babel-node ./src/index.js"
+    "start": "node npm run babel-node ./src/index.js"
   },
   "author": "Sebastian Morales",
   "license": "ISC",
@@ -16,8 +16,7 @@
     "express": "^4.18.1",
     "mysql": "^2.18.1",
     "promise-mysql": "^5.2.0",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.19"
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
